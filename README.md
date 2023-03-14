@@ -3,27 +3,27 @@
 ### Node.js avec TypeScript
 Voici les étapes pour la construction de ce projet Node.js avec TypeScript :
 
-1/ Tout d'abord, j'ai installe Node.js 
+- Tout d'abord, j'ai installe Node.js 
 
-2/Installer TypeScript : TypeScript est un sur-ensemble de JavaScript qui permet de typage statique. je l'ai installe via npm en utilisant la commande suivante :
+- Installer TypeScript : TypeScript est un sur-ensemble de JavaScript qui permet de typage statique. je l'ai installe via npm en utilisant la commande suivante :
 ```
 npm install -g typescript
 ```
-3/Initialiser le projet : je l'ai initialise en utilisant la commande  ``` npm init ``` dans le répertoire racine du projet.
+- Initialiser le projet : je l'ai initialise en utilisant la commande  ``` npm init ``` dans le répertoire racine du projet.
 Cela créera un fichier package.json contenant les dépendances du projet.
 
-4/Configuration de TypeScript : j'ai Crée un fichier tsconfig.json dans le répertoire racine du projet et j'ai définisse les paramètres appropriés pour le projet.
+- Configuration de TypeScript : j'ai Crée un fichier tsconfig.json dans le répertoire racine du projet et j'ai définisse les paramètres appropriés pour le projet.
 ### Expressjs
 J'ai utilise Express.js qui est un framework web populaire pour Node.js. Il permet de créer facilement des applications web en utilisant Node.js et offre de nombreuses fonctionnalités utiles pour la gestion des routes, la manipulation de fichiers, l'authentification, la gestion des sessions et plus encore. 
 Voici les étapes pour utiliser Express.js :
 
-1/ Installer Express.js  en utilisant la commande suivante :
+- Installer Express.js  en utilisant la commande suivante :
 ```
 npm install express
 ```
-2/ Importer les dépendances nécessaires 
+- Importer les dépendances nécessaires 
 
-3/ Configurer l'application Express.js en créant une instance de l'application et en définissant les routes et les middlewares.
+- Configurer l'application Express.js en créant une instance de l'application et en définissant les routes et les middlewares.
 ### Nodemon 
 J'ai utilise Nodemon qui est un outil de ligne de commande qui permet de surveiller les fichiers d'un projet Node.js et de redémarrer automatiquement le serveur lorsqu'un changement est détecté.
 Pour installer Nodemon, tapez la commande suivante :
@@ -33,25 +33,28 @@ npm install -g nodemon
 ### InversifyJS 
 J'ai utilise aussi InversifyJS qui est un conteneur d'injection de dépendances pour JavaScript / TypeScript. Il permet de gérer facilement les dépendances de l'application et de les injecter dans les classes qui en ont besoin. Voici quelques étapes pour manipuler InversifyJS :
 
-1/ Installer InversifyJS : en utilisant la commande suivante : 
+- Installer InversifyJS : en utilisant la commande suivante : 
 ```
 npm install inversify reflect-metadata --save
 ```
-2/ Importer les dépendances nécessaires dans le fichier TypeScript 
+- Importer les dépendances nécessaires dans le fichier TypeScript 
 
-3/ Décorer les classes avec les annotations appropriées pour indiquer leurs dépendances et comment elles doivent être injectées en utilisant les annotations `@injectable` et `@inject` pour cela.
+- Décorer les classes avec les annotations appropriées pour indiquer leurs dépendances et comment elles doivent être injectées en utilisant les annotations `@injectable` et `@inject` pour cela.
 ### OMDB API 
 A propos OMDB (Open Movie Database) qui est une API publique qui fournit des informations sur les films et les séries télévisées. L'API est gratuite et offre un accès complet aux données de l'OMDB. 
 
 Pour utiliser l'API OMDB, voici les étapes à suivre :
 
-1/ Obtenir une clé API : Pour utiliser l'API OMDB,j'ai obtenu une une clé API gratuite en vous inscrivant sur le site web de l'OMDB.
+- Obtenir une clé API : Pour utiliser l'API OMDB,j'ai obtenu une une clé API gratuite en vous inscrivant sur le site web de l'OMDB.
 
-2/ Installer la bibliothèque Axios : Axios est une bibliothèque JavaScript qui permet d'effectuer des requêtes HTTP. Pour utiliser l'API OMDB, j'ai installe la bibliothèque Axios en utilisant la commande suivante :
+- Installer la bibliothèque Axios : Axios est une bibliothèque JavaScript qui permet d'effectuer des requêtes HTTP. Pour utiliser l'API OMDB, j'ai installe la bibliothèque Axios en utilisant la commande suivante :
 ```
 npm install axios
 ```
-3/ Effectuer une requête à l'API OMDB : j'ai utilise Axios pour effectuer des requêtes à l'API OMDB. Par exemple, pour rechercher des informations sur un film, j'ai utilise la méthode get() d'Axios pour effectuer une requête GET. //code
+- Effectuer une requête à l'API OMDB : j'ai utilise Axios pour effectuer des requêtes à l'API OMDB. Par exemple, pour rechercher des informations sur un film, j'ai utilise la méthode get() d'Axios pour effectuer une requête GET. 
+
+![code](https://user-images.githubusercontent.com/47891897/225078170-cce4dffd-16f0-462c-a623-0c07980edd8c.PNG)
+
 ### GoogleAPI 
 J'ai utilise GoogleAPI intégrer google drive et google sheet ensemble avec l'app Backend OMDB en utilisant OAuth 2.0 qui est un protocole d'autorisation qui permet aux utilisateurs de donner accès à des applications tierces à leurs données stockées sur des services en ligne, tels que Google.
 ## Comment faire fonctionner le projet ?
